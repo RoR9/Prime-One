@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@font-face {
+    font-family: 'Bebas';
+    src: url('BebasNeueBook.woff2') format('woff2'),
+        url('BebasNeueBook.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+    src: url('AkzidenzGroteskBQ-BdCnd.eot');
+    src: url('AkzidenzGroteskBQ-BdCnd.eot?#iefix') format('embedded-opentype'),
+        url('AkzidenzGroteskBQ-BdCnd.woff2') format('woff2'),
+        url('AkzidenzGroteskBQ-BdCnd.woff') format('woff'),
+        url('AkzidenzGroteskBQ-BdCnd.svg#AkzidenzGroteskBQ-BdCnd') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+.wrapper{
+    margin: 0 auto;
+}
+/*Fonts Later*/
+
+/*Default font pt sans*/
+.container{
+    width: 1000px;
+    margin:0 auto;
+}
+.header{
+    padding:29px 0px 39px  ;
+}
+.header-top {
+display: flex;
+height: fit-content;
+justify-content: space-between;
+}
+.header-top-lang {
+    display: flex;
+}
+.header-top-lang-item {
+    display: block;
+    line-height: 19px;
+    color: black ;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 0px 4px;
+    margin: 0px 10px 0 0;
+    &.active{
+        background-color: black;
+        color: white;
+    }
+
+
+}
+.header-top-link {
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+color: #000000;
+text-decoration: underline;
+
+}
+.header-bottom {
+    display: flex;
+    align-items: center;
+    margin:-20px 0 0 0;
+}
+.header-bottom-column {
+    flex: 0 0 33.33%;
+    
+}
+.header-bottom-menu {
+    
+    
+}
+.header-bottom-menu_list{
+    display: flex;
+    justify-content: space-between;
+    li{}
+}
+.header-bottom-menu_link {
+    
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #000000;
+    
+
+}
+.header-bottom_logo {
+    display: block;
+    text-align: center;
+}
+.header-bottom-logo_text {
+display: block;
+font-family: Bebas;
+font-size: 8px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 1.0em;
+color: #000000;
+}
+.header-bottom-logo_img {
+    display: inline-block;
+    margin: 13px 0px 22px 0px ;
+}
+
+.header-bottom-menu-list_link{
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #000000;
+}
+
+/****************** Firsr section **********/
+.content {
+}
+.private {
+    display: flex;
+    background-color: black;
+}
+.private_column {
+    flex:0 0 50%;
+}
+.private_body{
+   
+}
+.private-body-content{
+    padding: 75px 0 75px 60px;
+    max-width: 405px;
+    
+}
+.private_img {
+    height: 100%;
+
+}
+
+.private_body_title {
+    
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 50px;
+line-height: 50px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #ffffff;
+margin: 0 0 30px 0px;
+}
+.private_body_text {
+
+ font-family: 'PT Sans';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+color: #ffffff;
+margin: 0 0 50px 0;
+}
+.private_body_btns {
+   display: flex;
+   align-items: center;
+  
+}
+.private_body_btns_item {
+}
+.btn {
+display:inline-block;
+width: 170px;
+height: 50px;
+line-height: 50px;
+background-color: black;
+font-size: 15px;
+line-height: 20px;
+font-weight: 400;
+text-transform: uppercase;
+padding: 15px 25px 15px 26px;
+letter-spacing: 0.1rem;
+color: white;
+text-transform: uppercase;
+&-w{
+    background-color: white;
+    color:black;
+}
+}
+
+.private_body_btns_link {
+    text-transform: uppercase;
+    text-decoration: underline;
+    margin:0 0 0 15px;
+    font-size: 15px;
+    color: white;
+
+}
+ 
+/****************** Product section **********/
+
+.products {
+    margin-top: 75px;
+    margin-bottom: 40px;
+
+}
+.container {
+}
+.products-body {
+}
+.products-column {
+    display: flex;
+    justify-content: center;
+    margin: 0 0 40px 0;
+    
+}
+.products-item {
+    max-width: 220px;
+    flex:0 0 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+.products-item_img {
+}
+.products-item_title {
+height: 50px;
+overflow: hidden;
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 25px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #000000;
+margin: 25px 0 36px 0;
+}
+.products-item-text {
+    flex:1 1 auto;
+font-family: 'PT Sans';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+color: #000000;
+margin: 0 0 25px 0;
+}
+.products-item_btn {
+    margin:0 0 29px 0 ;
+    
+}
+
+.products-item_link {
+    font-family: Bebas;
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+text-decoration: underline;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #000000; 
+}
+
+/****************** Why Section**********/
+.why-top {
+    display: flex;
+    background-color: black;
+    
+}
+.why-top_column {
+    flex:0 0 50%;
+}
+.why-top_text {
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 50px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #ffffff;
+text-align: right;
+padding: 55px 60px 55px 0px;
+}
+.why-top_img {
+    width: 100%;
+}
+.why-body {
+    padding: 50px 0 0 0 ;
+    background-color: #ebebeb;
+}
+.why-body_row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.why-body_column {
+    flex:0 0 50%;
+    margin: 0 0 50px 0;
+    
+}
+.why-body_item {
+    display: flex;
+}
+.why-body-item_icon {
+    flex:0 0 100px;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-body-item_body {
+    flex:1 1 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 11px;
+    
+}
+.why-body-item-body_title {
+flex: 1 1 auto;
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 25px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #000000;
+}
+.why-body-item-body_text {
+padding:0 15px 0 0 ;
+font-family: 'PT Sans';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+color: #000000;
+}
+/****************** Contacts Top**********/
+.contacts {
+    margin:82px 0 0 0;
+}
+.contacts-top {
+}
+.container {
+}
+.contatcts_title {
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 50px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #000000;
+margin: 0 0 39px 0;
+}
+.contacts-body {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contacts-body_column {
+    flex:0 0 50%;
+    
+}
+.contacts-body_item {
+    display: inline-block;
+margin:0 0 35px 0;
+font-family: 'PT Sans';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+color: #000000;
+}
+.contacts-body_item-1 {
+   background: url("/Images/contacts/1.png" ) 0 0 no-repeat;
+   padding:0 0 0 30px;
+}
+.contacts-body_item-2 {
+    background: url("/Images/contacts/2.png" ) 0 0 no-repeat;
+   padding:0 0 0 30px;
+}
+.contacts-body_item-3 {
+    background: url("/Images/contacts/3.png" ) 0 0 no-repeat;
+   padding:0 0 0 30px;
+}
+
+.contacts-body_column_social{
+    
+   
+}
+.contacts-social{
+    display: flex;
+}
+.contacts-social-item {
+    margin: 0 25px 0 0;
+    
+    &:last-child{
+        margin:0;
+    }
+    
+    
+    
+    
+}
+.contacts-social-item-1 {
+}
+.contacts-social-item-2 {
+}
+.contacts-social-item-3 {
+}
+.contacts-social-item-4 {
+}
+
+/****************** Contacts Content**********/
+.contacts-content {
+    background-color:black ;
+    display: flex;
+}
+.contacts-content-column {
+    flex: 0 0 50%;
+}
+.contacts_content_map {
+    width: 100%;
+}
+.contacts_content_form {
+
+    padding: 55px 60px;
+}
+.contacts_content-title {
+font-family: 'Akzidenz Grotesk BQ - Bd Cnd';
+font-size: 25px;
+line-height: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.1em;
+color: #ffffff;
+margin:0 0 28px 0;
+}
+.contacts_content-body {
+    max-width: 375px;
+}
+.content-form-line {
+    margin: 0 0 25px 0;
+
+}
+.input {
+    border-radius: 0 !important;
+    width: 100%;
+    display: block;
+    padding: 0px 18px;
+    border: 2px solid #959595;
+    background-color:#252525 ;
+    height: 50px;
+ font-family: 'PT Sans';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+color: #959595;
+
+
+}
+textarea.input{
+    height: 100px;
+    resize: none;
+    padding: 2px 18px;
+    font-family: 'PT Sans';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+color: #959595;
+    
+}
+.content-form-btn {
+}
+.contacts_content_form_btn {
+}
+.btn-w {
+}
+/****************** Footer **********/
+
+.container {
+}
+.footer-body {
+    height: 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-body-column {
+    
+}
+.footer-text {
+
+font-family: 'PT Sans';
+font-size: 15px;
+line-height: 25px;
+font-weight: 400;
+color: #4d4d4d;
+
+a{text-decoration: underline;
+    color: #4d4d4d;
+&:hover{text-decoration: none;}
+}
+}
+.footer-logo {
+}
